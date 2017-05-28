@@ -1,15 +1,16 @@
 
 body {
-	background-color: #6F7A8A;
+	background-color: white;
 }
 .main {
 	width: 100%;
-	display: flex;
-	justify-content: center;
 
 }
 a {
 	text-decoration: none;
+}
+a:hover{
+	color: black;
 }
 .header-nav {
 	text-align: center;
@@ -21,8 +22,6 @@ a {
 	justify-content: center;
 	align-items: center;
 	background-color: #6F7A8A;
-	position: absolute;
-	top: 0px;
 	-webkit-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.75);
 box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.75);
@@ -32,6 +31,6 @@ box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.75);
 .nav-content {
 	margin-right: 80px;
 	color: white;
-	
+
 
 }
