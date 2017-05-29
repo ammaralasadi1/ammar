@@ -1,45 +1,99 @@
+body {
+  background-color: #E3E3E5;
+	font-family: 'Inconsolata', monospace;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
 main {
-	width: 85%;
-	height: auto;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.logo{
-	width: 200px;
-	height: 200px;
+.heading {
+font-size: 1.5em;
 }
 
-.logo-info{
-	display: flex;
-	justify-content: space-between;
 
+.sub {
+	width: 75%;
+  font-size: 18px;
 }
+.resume{
+	color: #FB0000;
+font-family: "Special Elite";
+font-size: 25px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.logo-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 .info {
-	text-align: right;
-
-}
-.info-contenet{
-	display: block;
+  text-align: right;
+  margin-top: 20px;
 }
 
-.project{
-	min-width: 48%;
-    height: 542px;
-    margin: 9px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
+.info-contenet {
+  display: block;
+  font-size: 20px;
+  padding: 5px;
+
 }
-.projects{
-	display: flex;
-	justify-content:center;
-	flex-wrap: wrap;
-	width: 100%;
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+	margin-top: 70px;
 }
-.project-pictute{
-	width: 100%;
-	height: 80%;
-	background-color: red;
+.project {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+	margin: 20px;
+}
+
+
+
+.project-pictute {
+  width: 100%;
+	height: 340px;
+  -webkit-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
+  box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
+	border-radius: 5px;
+}
+.project-title {
+font-size: 1.5em;
+margin-bottom: 0px;
+margin-left: 10px;
+
+}
+.project-info {
+font-size: 18px;
+padding-top: 0px;
+margin-top: 0px;
+height: 30px;
+margin-left: 10px;
+}
+
+footer {
+	text-align: center;
+}
+hr {
+	width: 90%;
+	margin-left: 0px;
+}
+.github{
+	width: 20px;
+	height: 20px;
 }
