@@ -13,13 +13,21 @@ main {
   margin: 0 auto;
 }
 
+.about, .expierience {
+  margin: 50px 0px 50px 0px;
+}
+
 .heading {
   font-size: 1.5em;
+  background-color: #c1c1c1;
+  display: inline;
+  padding: 5px;
 }
 
 .sub {
-  width: 75%;
+  width: 90%;
   font-size: 18px;
+  line-height: 25px;
 }
 
 .resume {
@@ -59,7 +67,7 @@ main {
 }
 
 .project {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -71,6 +79,10 @@ main {
   -moz-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   border-radius: 5px;
+  opacity: 0.8;
+}
+.project-pictute:hover{
+  opacity: 1;
 }
 
 .project-title {
@@ -89,9 +101,17 @@ main {
 
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 
 .github {
   width: 20px;
   height: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.small {
+  font-size: 15px;
 }
