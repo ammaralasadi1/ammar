@@ -76,18 +76,17 @@ main {
 }
 
 .project-pictute {
-  width: 100%;
+  width: 99%;
   height: 365px;
   -webkit-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   -moz-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   border-radius: 5px;
-  opacity: 0.8;
   border: 1px solid black;
 }
 
 .project-pictute:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .project-title {
@@ -134,4 +133,8 @@ footer {
 }
 .experience {
   margin-top: 50px;
+}
+.icon {
+width: 60px;
+height: 60px;
 }
