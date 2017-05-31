@@ -1,8 +1,7 @@
 body {
   background-color: #E3E3E5;
   font-family: 'Raleway', sans-serif;
-  text-align: justify;
-  text-align: center;
+
 
 }
 
@@ -16,13 +15,13 @@ main {
   margin: 0 auto;
 }
 
-.about, .expierience {
+.about {
   margin: 50px 0px 50px 0px;
 }
 
 .heading {
   font-size: 1.5em;
-  background-color: #28d5ae;
+  background-color: #95b7af;
   display: inline;
   padding: 5px;
   border-radius: 10px;
@@ -37,9 +36,12 @@ main {
 }
 
 .resume {
-  color: #FB0000;
-  font-size: 15px;
+  color: black;
+  font-size: 25px;
   text-decoration: underline;
+  margin: 20px;
+  display: block;
+  font-weight: bold;
 }
 
 .logo {
@@ -63,6 +65,7 @@ main {
 
 .projects {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -71,7 +74,7 @@ main {
 }
 
 .project {
-  width: 45%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -80,7 +83,7 @@ main {
 
 .project-pictute {
   width: 99%;
-  height: 365px;
+  /*height: 365px;*/
   -webkit-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   -moz-box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
   box-shadow: -1px 1px 17px -2px rgba(0, 0, 0, 0.63);
@@ -130,14 +133,15 @@ footer {
   font-size: 15px;
 }
 
-.experience, .about, .projects-heading {
+.about, .projects-heading {
   margin-left: 50px;
 
 }
-.experience {
-  margin-top: 50px;
+.talk {
+  text-align: center;
+  margin: 50px;
 }
 .icon {
-width: 60px;
-height: 60px;
+width: 40px;
+height: 40px;
 }
