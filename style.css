@@ -19,9 +19,10 @@ main {
 
 .heading {
   font-size: 1.5em;
-  /*background-color: #64bfe2;*/
+  background-color: #28d5ae;
   display: inline;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .sub {
@@ -105,6 +106,12 @@ main {
 footer {
   text-align: center;
   margin-top: 50px;
+}
+.contact{
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  background: yellow;
 }
 
 .github {
