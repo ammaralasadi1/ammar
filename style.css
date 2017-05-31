@@ -1,6 +1,9 @@
 body {
   background-color: #E3E3E5;
   font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  text-align: center;
+
 }
 
 a {
@@ -40,8 +43,8 @@ main {
 }
 
 .logo {
-  width: 30%;
-  height: 30%;
+  width: 35%;
+  height: 35%;
   margin-bottom: 0px;
 }
 
