@@ -17,7 +17,6 @@ hr {
   margin: 20px;
 }
 
-
 .heading {
   font-size: 1.5em;
   display: inline;
@@ -43,9 +42,9 @@ hr {
 }
 
 .logo {
-  width: 30%;
-      margin: 0 auto;
-      display: block;
+  width: 40%;
+  margin: 0 auto;
+  display: block;
 }
 
 .logo-info {
